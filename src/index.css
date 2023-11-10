@@ -1,0 +1,59 @@
+@font-face {
+  font-family: founders-grotesk;
+  src: url(../fonts/founders-grotesk-mono-regular.woff2);
+}
+@font-face {
+  font-family: louize-display-italic;
+  src: url(../fonts/louize-display-italic.woff2);
+}
+@font-face {
+  font-family: petit-serif;
+  src: url(../fonts/petit-serif-regular.woff2);
+}
+
+@font-face {
+  font-family: louize-display;
+  src: url(../fonts/louize-display-regular.woff2);
+}
+
+::selection {
+  background-color: #ffae74;
+}
+
+:root {
+  --backGround: #f7f5f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #000000;
+  --sb-size: 8px;
+  max-width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background: var(--backGround);
+  overflow-x: hidden;
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+}

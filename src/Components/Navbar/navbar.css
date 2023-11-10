@@ -1,0 +1,62 @@
+.navContainer {
+  height: 3vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.4vw;
+  border-bottom: 2px solid #000000;
+  font-family: main font2;
+  position: sticky;
+  top: 0;
+  background: var(--backGround);
+  z-index: 99;
+}
+.navContainer .logo {
+  min-width: 12.5vw;
+  width: 12.5vw;
+  cursor: pointer;
+}
+.navContainer .cafeLogo {
+  position: relative;
+  width: 2.917vw;
+  top: 50%;
+}
+
+.navContainer .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1vw;
+  list-style: none;
+  font-size: 1vw;
+  text-transform: capitalize;
+  height: 100%;
+  min-width: 20vw;
+}
+.btn-container a {
+  text-decoration: none;
+  color: #000000;
+  font-family: founders-grotesk;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-container a:hover {
+  color: #000000;
+  font-weight: 600;
+}
+.btn-container div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1vw;
+  background: #ffae74;
+}
+.btn-container img {
+  height: 1.4vw;
+}
+
+.navContainer .btn-container ul > li:first-child {
+  font-weight: 500;
+}

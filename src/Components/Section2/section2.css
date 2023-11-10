@@ -1,0 +1,35 @@
+marquee {
+  letter-spacing: 0.3px;
+  word-spacing: 0.1px;
+  font-family: founders-grotesk;
+  font-size: 1vw;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+span {
+  background-color: #ffae74;
+  padding: 0.2vw 0.5vw;
+  border-radius: 25px;
+}
+
+.pic {
+  display: flex;
+  overflow-y: scroll;
+  margin: 4vw 0;
+  gap: 1.5vw;
+  padding: 0 1vw;
+}
+.pic::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.pic img {
+  width: 38.333vw;
+  height: 33.333vw;
+  object-fit: cover;
+  border-radius: 1.25vw;
+}

@@ -1,0 +1,59 @@
+.section1Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  border: 3.2px double black;
+  margin: 3vw;
+  overflow: hidden;
+}
+.section1Container .leftContaienr {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.leftContaienr p {
+  font-size: 5vw;
+  padding: 0 1vw;
+  text-transform: uppercase;
+  font-family: "petit serif";
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.leftContaienr h4 {
+  border: 0.002vw solid black;
+  padding: 0.4vw 0.8vw;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+  cursor: pointer;
+  font-family: founders-grotesk;
+  font-weight: 300;
+}
+.rightContaienr {
+  padding-left: 3.8vw;
+  width: 50vw;
+  border-left: 3.2px double black;
+}
+
+.section1Container .rightContaienr video {
+  min-width: 33.333vw;
+  max-width: 33.333vw;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 740px) {
+  .section1Container {
+    flex-direction: column;
+    border: none;
+  }
+
+  .rightContaienr {
+    all: unset;
+  }
+  .section1Container .rightContaienr video {
+    max-width: 53.333vw;
+  }
+}

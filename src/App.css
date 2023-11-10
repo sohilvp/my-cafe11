@@ -1,0 +1,11 @@
+.appContaienr {
+  width: 100%;
+}
+
+.ture {
+  overflow: auto;
+}
+.false {
+  overflow: hidden;
+  max-height: 100vh;
+}
